@@ -1,0 +1,170 @@
+.commentIcon{
+    height: 2rem;
+    width: 3rem;
+    fill: lightblue;
+}
+.commentIcon{
+    cursor: pointer;
+}
+
+.ModalBackground{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.301);
+    z-index: 3;
+    text-align: center;
+    position: fixed;
+    top: 0rem;
+    left: 0;
+
+}
+.tempModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    z-index: -1;
+}
+.Modal{
+    z-index: 10;
+    height: 70vh;
+    width: 60vw;
+    background-color: #f1f6fe;
+    display: flex;
+    margin: auto;
+    margin-top: 15vh;
+
+
+}
+
+
+.VideoContainer{
+    height: 70vh;
+    width: 40% ;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.VideoContainer video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+
+
+.commentSection{
+    height: 100%;
+    width: 60%;
+    background-color: #f1f6fe;
+    overflow: hidden;
+}
+
+.authorDataContainer{
+    box-shadow: 0px 2px 0.2px #d0ddf5 ;
+    height: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.authorPic{
+    margin-left: 3rem;
+    min-width: 50px;
+    height: 60%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.authorPic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+.authorName{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.commentsContainer{
+    height: 70% ;
+    width: 100%;
+    overflow-Y: scroll;
+}
+
+.comment{
+    display: flex;
+    margin-top: 1rem;
+    
+}
+
+.commentUserPic{
+    overflow: hidden;
+    margin: 1rem;
+    min-width: 3px;
+    height: 100%;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commentUserPic img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.textContainer{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.CommentAuthoreName{
+    font-weight: bold;
+}
+
+.CommentText{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.commentInput{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    padding-right: 7rem;
+}
+
+.commentInputContainer{
+    height: 12%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.commentBtn{
+    position: absolute;
+    z-index: 4;
+    top: 1rem;
+    right: 0.5rem;
+    outline: none;
+    background-color: #b36af8;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    border-radius: 10px;
+}
+
